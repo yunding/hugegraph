@@ -573,8 +573,7 @@ public class HugeGraph implements GremlinGraph {
 
     /**
      * Stop all the daemon threads
-     * @param timout seconds
-     * @throws InterruptedException when be interrupted
+     * @param timeout seconds
      */
     public static void shutdown(long timeout) {
         try {
